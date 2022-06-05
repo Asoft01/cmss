@@ -15,7 +15,7 @@ class CategoriesController extends Controller
     {
         //
     }
-
+    // Good 
     /**
      * Show the form for creating a new resource.
      *
