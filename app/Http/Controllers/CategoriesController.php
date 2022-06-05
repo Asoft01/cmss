@@ -13,9 +13,9 @@ class CategoriesController extends Controller
      */
     public function index()
     {
-        //
+        return view('categories.index');
     }
-    // Good 
+
     /**
      * Show the form for creating a new resource.
      *
@@ -23,7 +23,7 @@ class CategoriesController extends Controller
      */
     public function create()
     {
-        //
+        return view('categories.create');
     }
 
     /**

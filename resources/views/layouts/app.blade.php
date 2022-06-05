@@ -78,10 +78,10 @@
                     <div class="row">
                         <div class="col-md-4">
                             <li class="list-group-item">
-                                <a href="">Posts</a>
+                                <a href="/posts">Posts</a>
                             </li>
                             <li class="list-group-item">
-                                <a href="">Categories</a>
+                                <a href="/categories">Categories</a>
                             </li>
                         </div>
                         <div class="col-md-8">
