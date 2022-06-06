@@ -75,6 +75,11 @@
         <main class="py-4">
            @auth
             <div class="conitainer">
+                @if(session()->has('success'))
+                    <div class="alert alert-success">
+                        {{ session()->get('success') }}
+                    </div>
+                @endif
                     <div class="row">
                         <div class="col-md-4">
                             <li class="list-group-item">
