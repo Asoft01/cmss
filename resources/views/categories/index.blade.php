@@ -37,7 +37,7 @@
                             @method('DELETE')
                             <div class="modal-content">
                                 <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Delete Category</h5>
+                                <h5 class="modal-title" id="deleteModalLabel">Delete Category</h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                     <span aria-hidden="true">&times;</span>
                                 </button>
@@ -66,7 +66,7 @@
             // console.log('deleting', id);
             var form = document.getElementById('deleteCategoryForm');
             form.action = '/categories/' + id
-            // console.log('deleting', form);
+            // console.log('deleting', form); return false;
             $('#deleteModal').modal('show');
         }
     </script>
