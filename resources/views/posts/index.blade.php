@@ -17,13 +17,13 @@
                 <tbody>
                     @foreach ($posts as $post)
                         <tr>
-                            <td><img src="{{ asset($post->image) }}" width="120px" height="60px" alt="Hello"></td>
+                            <td><img src="{{ asset('storage/'.$post->image) }}" width="120px" height="60px" alt="Hello"></td>
                             <td>{{ $post->title }}</td>
                             <td>
-                                <a href="" class="btn btn-info sm">Edit</a>
+                                <a href="" class="btn btn-info btn-sm">Edit</a>
                             </td>
                             <td>
-                                <a href="" class="btn btn-danger sm">Trash</a>
+                                <a href="" class="btn btn-danger btn-sm">Trash</a>
                             </td>
                         </tr>
                     @endforeach
