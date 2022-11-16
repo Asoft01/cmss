@@ -1,1 +1,5 @@
 php artisan make:request CategoryRequest
+php artisan make:migration add_soft_deletes_to_posts_table --table=posts
+https://cdnjs.com/libraries/trix
+https://cdnjs.com/libraries/trix/1.0.0
+https://flatpickr.js.org/getting-started/
