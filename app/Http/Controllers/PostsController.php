@@ -110,6 +110,7 @@ class PostsController extends Controller
         }
 
         // update attributes 
+        // dd($post); die;
 
         $post->update($data); 
         

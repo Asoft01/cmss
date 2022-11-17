@@ -13,6 +13,9 @@
                     <thead>
                         <th>Image</th>
                         <th>Title</th>
+                        <th>Category</th>
+                        <th></th>
+                        <th></th>
                         <th></th>
                     </thead>
                     <tbody>
@@ -20,6 +23,11 @@
                             <tr>
                                 <td><img src="{{ asset('storage/'.$post->image) }}" width="120px" height="60px" alt="Hello"></td>
                                 <td>{{ $post->title }}</td>
+                                <td>
+                                    <a href="{{ route('categories.edit', $post->category->id) }}">
+                                        {{ $post->category->name }}
+                                    </a>
+                                </td>
                                 {{-- <td>
                                     <a href="" class="btn btn-info btn-sm">Edit</a>
                                 </td> --}}
